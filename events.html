@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Blackpig - Upcoming Events</title>
+  <link rel="stylesheet" href="css.css">
+  <style>
+    body {
+      margin: 0;
+      background-color: black;
+      color: white;
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    h1 {
+      font-size: 4rem;
+      font-weight: 900;
+      text-decoration: underline;
+      margin: 40px 0 10px;
+    }
+
+    .socials {
+      background-color: #444;
+      border: 2px solid white;
+      padding: 20px;
+      margin-top: 30px;
+      text-align: center;
+      line-height: 2;
+      font-size: 1.5rem;
+      width: 90%;
+      max-width: 500px;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+
+    <!-- Dropdown Menu -->
+    <div class="dropdown">
+      <button>
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="dropdown-content">
+        <a href="index.html">Home</a>
+        <a href="about-us.html">About Us</a>
+        <a href="events.html"><b>Upcoming Events</b></a>
+        <a href="social-media.html">Social Media</a>
+        <a href="gallery.html">Gallery</a>
+      </div>
+    </div>
+
+  <h1>Blackpig - Upcoming Events</h1>
+
+
+  <p style="color:white; font-size: 30px; text-align: center;">25th May 2025 at The Sports and Social Club, Deanshanger <br>
+  29th June 2025, Pyramid Stage Glastonbury Festival (TBC)</p>
+
+
+  <script>
+    function toggleMenu() {
+      const burger = document.querySelector('.burger-menu');
+      burger.classList.toggle('active');
+    }
+  </script>
+
+</body>
+</html>
+
